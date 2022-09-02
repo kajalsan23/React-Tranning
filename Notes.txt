@@ -1,0 +1,61 @@
+- What is Javascript?
+It is a client-side scripting language that is used to apply some dynamic features in our web page line animations, event handling, validations, dom-manipulation, etc. 
+-> Javascript is known as ECMAScript.
+-> In web Browsers, Javascript consists of 3 main parts
+1. ECMAScript provides the core functionality
+2. DOM(Document Object Model) Provides interfaces for interacting with elements on web pages.
+3. BOM(Browser Object Model) provides the browser API for interacting with the browser.
+
+- How JavaScript Program is executed | Boot
+When a web page is loaded, the javascript engine in the browser executes the javascript code. The javascript code then modifies HTML and CSS to update the user interface dynamically.
+Chrome:- V8
+Firefox:- Spider Monkey
+IE:- Chakra
+Modern Javascript engines are typically implemented as jit(Just in Time) compilers that compile Javascript code to bytecode for improved performance.
+-> Old Javascript is known as Vanilla Javascript | Es 5
+-> Javascript is case sensitive
+-> extension .js 
+-> <script> tag
+-> concatenation (+)
+-> comments :- to describe the code
+   Single: //
+   Multiple :- /*   */
+-> javascript is a programming.
+   -> Variables
+        var varname - value
+    eg. Var empName="Shark"
+   -> Scope of variable is global, only in case of function if we define any variable with var key inside the function then it is local for that method.
+   -> DataTypes:- allocate at one time
+Number, string, boolean, array, object, null, undefined, 
+typeof varname
+-> Operators
+-> Conditions
+-> looping
+-> array
+-> functions
+  -> prompt():- input data at runtime
+  -> alert():- display a dialog box with message
+
+-> Events :- are used to perform the task 
+Events       Event Handler
+click          onclick
+dblclick       ondblclick
+mouseover 
+mouseout
+keyup
+keyDown
+keypress
+blur
+focus
+change
+loaded
+reload
+submit
+scroll
+-> Intervals
+  -> setInterval():- call a function and expression multiple times as of mention time
+  eg: interval = setInterval(counter, 1000)
+  -> setTimeout():- call a function only one time after a given internal
+  setTimeout(counter,2000)
+  clearInterval() :- to stop interval
+  eg:- clearInterval(internal)
